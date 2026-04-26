@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEXYS | Consultoria de Processos e Automação de Sistemas</title>
+  <meta name="description" content="Transformamos processos manuais em rotinas automatizadas com IA, Python, automação e integrações de sistemas. Consultoria boutique com diagnóstico gratuito.">
+  <meta name="keywords" content="consultoria de processos, automação de processos empresariais, RPA, automação com Python, integração de sistemas ERP WMS TMS, business intelligence, inteligência artificial para empresas, transformação digital, desenvolvimento de software sob medida, dashboard executivo, eficiência operacional, redução de custos operacionais, automação de planilhas Excel">
+  <meta name="author" content="NEXYS Consultoria">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0A0A1A">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nexys.com.br/">
+  <meta property="og:title" content="NEXYS | Consultoria de Processos e Automação">
+  <meta property="og:description" content="Transformamos processos manuais em rotinas automatizadas com IA, Python, automação e integrações de sistemas.">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="NEXYS">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NEXYS | Consultoria de Processos e Automação">
+  <meta name="twitter:description" content="Transformamos processos manuais em rotinas automatizadas com IA, Python, automação e integrações de sistemas.">
+
+  <link rel="canonical" href="https://nexys.com.br/">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "NEXYS",
+    "legalName": "NEXYS Consultoria de Processos e Desenvolvimento de Software",
+    "url": "https://nexys.com.br",
+    "logo": "https://nexys.com.br/logo.png",
+    "email": "nexys.consultoria@gmail.com",
+    "telephone": "+55-11-91051-8416",
+    "taxID": "56.036.553/0001-59",
+    "foundingDate": "2026-05",
+    "description": "Consultoria focada em empresas que precisam sair de planilhas para uma operação automatizada, integrada e orientada a dados.",
+    "founder": {
+      "@type": "Person",
+      "name": "Gueilee Pereira",
+      "jobTitle": "Gerente de Projetos Sênior",
+      "sameAs": "https://www.linkedin.com/in/gueilee-pereira"
+    },
+    "sameAs": ["https://www.linkedin.com/company/nexys-consultoria"],
+    "areaServed": "BR",
+    "serviceType": ["Consultoria de Processos","Automação com Python e RPA","Desenvolvimento de Software","Integração de Sistemas","Dashboards e Business Intelligence","Inteligência Artificial Aplicada"]
+  }
+  </script>
+</head>
+<body>
+
+<!-- Global SVG gradient for all icons (userSpaceOnUse fixes degenerate bounding boxes on line elements) -->
+<svg width="0" height="0" style="position:absolute;overflow:hidden" aria-hidden="true">
+  <defs>
+    <linearGradient id="ig" x1="0" y1="0" x2="24" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B6EFF"/>
+      <stop offset="100%" stop-color="#9D4EDD"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<!-- Ambient background -->
+<div class="bg-ambient" aria-hidden="true">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="grid-lines"></div>
+</div>
+
+<!-- ═══════════════════════════════════════
+     HEADER
+══════════════════════════════════════════ -->
+<header id="header" role="banner">
+  <nav class="nav" aria-label="Navegação principal">
+    <a href="#inicio" class="nav-logo" aria-label="NEXYS — Página inicial">
+      <img src="logo.png" alt="NEXYS" width="130" height="44" loading="eager">
+    </a>
+
+    <button class="nav-hamburger" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Abrir menu de navegação">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-menu" id="navMenu" role="list">
+      <li><a href="#inicio"        class="nav-link">Início</a></li>
+      <li><a href="#servicos"      class="nav-link">Serviços</a></li>
+      <li><a href="#portfolio"     class="nav-link">Portfólio</a></li>
+      <li><a href="#diferenciais"  class="nav-link">Diferenciais</a></li>
+      <li><a href="#resultados"    class="nav-link">Resultados</a></li>
+      <li><a href="#sobre"         class="nav-link">Sobre</a></li>
+      <li><a href="#faq"           class="nav-link">FAQ</a></li>
+      <li><a href="#contato"       class="nav-link">Contato</a></li>
+    </ul>
+
+    <a href="#contato" class="btn-primary nav-cta">Diagnóstico Grátis</a>
+  </nav>
+</header>
+
+<!-- ═══════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<section id="inicio" class="hero" aria-labelledby="hero-heading">
+  <div class="container hero-inner">
+
+    <div class="hero-text">
+      <h1 id="hero-heading" class="hero-title reveal-up delay-1">
+        Sua empresa ainda<br>funciona em planilhas?<br>
+        <span class="grad-text">A gente automatiza isso.</span>
+      </h1>
+
+      <p class="hero-sub reveal-up delay-2">
+        Consultoria de processos com foco em automação, IA e integração de sistemas.
+        Transformamos rotinas manuais em operações inteligentes que <strong>economizam tempo,
+        reduzem custos</strong> e geram decisão em tempo real.
+      </p>
+
+      <div class="hero-actions reveal-up delay-3">
+        <a href="#contato" class="btn-primary btn-lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Quero um diagnóstico gratuito
+        </a>
+        <a href="#sobre" class="btn-ghost btn-lg">
+          Conhecer a NEXYS
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+      <div class="trust-badges reveal-up delay-4">
+        <div class="trust-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#00E5A0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          +20 anos de experiência sênior
+        </div>
+        <div class="trust-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#00E5A0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          PMs e PMOs certificados
+        </div>
+        <div class="trust-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#00E5A0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          Do diagnóstico ao código
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal-up delay-2">
+      <div class="browser-mockup">
+        <div class="browser-chrome">
+          <div class="browser-dots" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="browser-address">nexys.dashboard.app</div>
+        </div>
+        <div class="browser-screen">
+          <video
+            src="video.mp4"
+            autoplay muted loop playsinline
+            preload="metadata"
+            class="hero-video"
+            aria-label="Demonstração do dashboard NEXYS"
+          ></video>
+          <div class="video-overlay-ui" aria-hidden="true">
+            <div class="ui-kpi-row">
+              <div class="ui-kpi">
+                <span class="ui-kpi-val success">+40%</span>
+                <span class="ui-kpi-lbl">Eficiência</span>
+              </div>
+              <div class="ui-kpi">
+                <span class="ui-kpi-val blue">120h</span>
+                <span class="ui-kpi-lbl">Economizadas</span>
+              </div>
+              <div class="ui-kpi">
+                <span class="ui-kpi-val purple">R$28.5k</span>
+                <span class="ui-kpi-lbl">Economia/mês</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+    </div>
+
+  </div>
+
+  <div class="scroll-hint" aria-hidden="true">
+    <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     METRICS BAR
+══════════════════════════════════════════ -->
+<section class="metrics" aria-label="Métricas de resultados">
+  <div class="container metrics-inner">
+    <div class="metric-item">
+      <div class="metric-val" style="color:#00E5A0">+<span class="count" data-to="40">0</span>%</div>
+      <div class="metric-name">Eficiência operacional</div>
+      <div class="metric-desc">Ganho médio após automação dos processos</div>
+    </div>
+    <div class="metric-divider" aria-hidden="true"></div>
+    <div class="metric-item">
+      <div class="metric-val" style="color:#4A7BFF"><span class="count" data-to="15">0</span>/15</div>
+      <div class="metric-name">Tarefas automatizadas</div>
+      <div class="metric-desc">Rotinas repetitivas eliminadas por projeto</div>
+    </div>
+    <div class="metric-divider" aria-hidden="true"></div>
+    <div class="metric-item">
+      <div class="metric-val" style="color:#A855F7"><span class="count" data-to="120">0</span>h</div>
+      <div class="metric-name">Economizadas por mês</div>
+      <div class="metric-desc">Tempo devolvido às equipes por ciclo</div>
+    </div>
+    <div class="metric-divider" aria-hidden="true"></div>
+    <div class="metric-item">
+      <div class="metric-val grad-text">R$&nbsp;<span class="count" data-to="28" data-suffix=".500">0</span></div>
+      <div class="metric-name">Economia mensal média</div>
+      <div class="metric-desc">ROI medido e comprovado por projeto</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     ABOUT
+══════════════════════════════════════════ -->
+<section id="sobre" class="section" aria-labelledby="about-heading">
+  <div class="container about-inner">
+
+    <div class="about-content reveal-up">
+      <div class="eyebrow">Nossa história</div>
+      <h2 id="about-heading" class="section-title">
+        Por que a <span class="grad-text">NEXYS</span> existe
+      </h2>
+      <p class="body-lg">
+        A maioria das empresas perde tempo, dinheiro e oportunidades em processos espalhados,
+        retrabalho e controles manuais. A NEXYS nasce para mudar isso — unindo experiência
+        sênior em gestão de projetos com execução técnica em automação, IA e desenvolvimento de software.
+      </p>
+      <p class="body-lg">
+        Fundada por <strong>Gueilee Pereira</strong>, com mais de 20 anos de experiência liderando
+        operações de alta complexidade nos setores de logística, e-commerce, distribuição e varejo.
+        Da estratégia ao código, sem intermediários.
+      </p>
+
+      <ul class="check-list" role="list">
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3B6EFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          +20 anos em logística, PMO, S&OP e automação de processos
+        </li>
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3B6EFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          Liderança em projetos de alto impacto e grande escala nacional
+        </li>
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3B6EFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          Gestão de operações com milhões de transações em pico sazonal
+        </li>
+        <li>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3B6EFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          Especialista em Python, IA, automação e integrações de sistemas
+        </li>
+      </ul>
+    </div>
+
+    <div class="about-cards reveal-up delay-2">
+      <div class="glass-card founder-card">
+        <div class="avatar-circle">GP</div>
+        <div class="founder-details">
+          <div class="founder-name">Gueilee Pereira</div>
+          <div class="founder-role">Fundador &amp; Consultor Sênior</div>
+          <div class="founder-desc">Gerente de Projetos com +20 anos em logística, S&OP, PMO e automação de processos.</div>
+        </div>
+        <div class="company-tags">
+          <span>Logística</span><span>E-commerce</span><span>Distribuição</span>
+          <span>Varejo</span><span>Supply Chain</span><span>Tecnologia</span>
+        </div>
+      </div>
+
+      <div class="glass-card stat-card">
+        <div class="stat-row">
+          <span class="stat-num grad-text">15+</span>
+          <span class="stat-lbl">Anos de experiência sênior</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-num grad-text">6+</span>
+          <span class="stat-lbl">Grandes empresas na trajetória</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-num grad-text">100%</span>
+          <span class="stat-lbl">Foco em ROI mensurável</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SERVICES
+══════════════════════════════════════════ -->
+<section id="servicos" class="section section-alt" aria-labelledby="services-heading">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <div class="eyebrow">O que fazemos</div>
+      <h2 id="services-heading" class="section-title">
+        Seis formas de <span class="grad-text">transformar sua operação</span>
+      </h2>
+      <p class="section-sub">Do diagnóstico à entrega técnica — cobrimos todo o ciclo de automação e desenvolvimento.</p>
+    </div>
+
+    <div class="services-grid">
+
+      <div class="glass-card service-card reveal-up">
+        <div class="service-icon-wrap">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <g stroke="url(#ig)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M17.5 14v7M14 17.5h7"/>
+            </g>
+          </svg>
+        </div>
+        <h3 class="service-title">Mapeamento e Redesenho de Processos</h3>
+        <p class="service-desc">Diagnóstico completo com BPMN, análise de gargalos e redesenho da jornada operacional. Você vê onde está perdendo dinheiro antes de investir um centavo em tecnologia.</p>
+        <div class="service-tags"><span>BPMN</span><span>Diagnóstico</span><span>ROI</span></div>
+      </div>
+
+      <div class="glass-card service-card reveal-up delay-1">
+        <div class="service-icon-wrap">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <g stroke="url(#ig)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+            </g>
+          </svg>
+        </div>
+        <h3 class="service-title">Automação com Python, RPA e VBA</h3>
+        <p class="service-desc">Robôs e scripts que eliminam tarefas repetitivas de vez. Integração com planilhas, ERPs e portais. Seu time para de digitar e começa a decidir.</p>
+        <div class="service-tags"><span>Python</span><span>RPA</span><span>VBA</span></div>
+      </div>
+
+      <div class="glass-card service-card reveal-up delay-2">
+        <div class="service-icon-wrap">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <g stroke="url(#ig)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>
+            </g>
+          </svg>
+        </div>
+        <h3 class="service-title">Desenvolvimento de Sistemas Sob Medida</h3>
+        <p class="service-desc">Web apps, portais internos, painéis de controle e sites institucionais. Desenvolvidos do zero para resolver exatamente o seu problema — sem excessos.</p>
+        <div class="service-tags"><span>Web Apps</span><span>Portais</span><span>React</span></div>
+      </div>
+
+      <div class="glass-card service-card reveal-up">
+        <div class="service-icon-wrap">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <g stroke="url(#ig)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+            </g>
+          </svg>
+        </div>
+        <h3 class="service-title">Integração de Sistemas</h3>
+        <p class="service-desc">ERP, WMS, TMS, APIs REST/SOAP, conectores e middlewares. Sistemas diferentes conversando entre si, dados fluindo sem intervenção humana.</p>
+        <div class="service-tags"><span>ERP</span><span>WMS/TMS</span><span>APIs</span></div>
+      </div>
+
+      <div class="glass-card service-card reveal-up delay-1">
+        <div class="service-icon-wrap">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <g stroke="url(#ig)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="6" height="18" rx="1"/><rect x="9" y="8" width="6" height="13" rx="1"/><rect x="16" y="13" width="6" height="8" rx="1"/>
+            </g>
+          </svg>
+        </div>
+        <h3 class="service-title">Dashboards e Business Intelligence</h3>
+        <p class="service-desc">KPIs em tempo real, storytelling de dados e painéis executivos com ferramentas modernas como Looker Studio e Metabase. Visualizações customizadas e análise avançada com SQL integrado aos seus sistemas.</p>
+        <div class="service-tags"><span>Looker Studio</span><span>Metabase</span><span>SQL</span></div>
+      </div>
+
+      <div class="glass-card service-card service-featured reveal-up delay-2">
+        <div class="service-badge">Em alta</div>
+        <div class="service-icon-wrap">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <g stroke="url(#ig)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4"/><path d="M6.5 17a5.5 5.5 0 0 1 11 0"/><path d="M12 10v2M8 14h8"/>
+            </g>
+          </svg>
+        </div>
+        <h3 class="service-title">Inteligência Artificial Aplicada</h3>
+        <p class="service-desc">IA nas rotinas operacionais: atendimento automatizado, previsão de demanda, classificação automática de documentos e relatórios inteligentes com OpenAI e Claude API.</p>
+        <div class="service-tags"><span>OpenAI</span><span>Claude API</span><span>n8n</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     PORTFOLIO
+══════════════════════════════════════════ -->
+<section id="portfolio" class="section portfolio-section" aria-labelledby="portfolio-heading">
+  <div class="container">
+
+    <div class="section-header reveal-up">
+      <div class="eyebrow">Sistemas prontos para deploy</div>
+      <h2 id="portfolio-heading" class="section-title">
+        Tecnologia que sua empresa<br><span class="grad-text">pode ativar agora.</span>
+      </h2>
+      <p class="section-sub">
+        Seis plataformas desenvolvidas, testadas e disponíveis para implementação imediata —
+        com configuração personalizada para o seu processo e suporte contínuo da NEXYS.
+        Ou, se preferir, criamos um sistema 100% sob medida para você.
+      </p>
+    </div>
+
+    <div class="portfolio-grid">
+
+      <!-- 01 — Gestão de Projetos -->
+      <div class="glass-card pcard reveal-up">
+        <div class="pcard-num grad-text">01</div>
+        <div class="pcard-header">
+          <div class="pcard-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <g stroke="url(#ig)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="16" rx="2"/>
+                <path d="M3 9h18M9 4v5M15 4v5"/>
+                <path d="M7 13h4M7 16h6"/>
+              </g>
+            </svg>
+          </div>
+          <span class="pcard-badge">● Disponível</span>
+        </div>
+        <h3 class="pcard-title">Gestão de Projetos</h3>
+        <p class="pcard-desc">Substitua e-mails e planilhas por uma plataforma que gerencia projetos do início ao fim. Cronograma, Gantt interativo, Kanban por fase e controle total de recursos — tudo em um painel.</p>
+        <ul class="pcard-features">
+          <li>Gráfico de Gantt interativo com drag &amp; drop</li>
+          <li>Quadros Kanban por etapa do projeto</li>
+          <li>Controle de marcos, entregas e prazos</li>
+          <li>Gestão de equipe e alocação de recursos</li>
+          <li>Dashboard de progresso e alertas automáticos</li>
+        </ul>
+        <a href="#contato" class="pcard-cta" aria-label="Solicitar demonstração do Sistema de Gestão de Projetos">
+          Solicitar demonstração
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+      <!-- 02 — Sistema de Compras -->
+      <div class="glass-card pcard reveal-up delay-1">
+        <div class="pcard-num grad-text">02</div>
+        <div class="pcard-header">
+          <div class="pcard-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <g stroke="url(#ig)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+                <line x1="3" y1="6" x2="21" y2="6"/>
+                <path d="M16 10a4 4 0 0 1-8 0"/>
+              </g>
+            </svg>
+          </div>
+          <span class="pcard-badge">● Disponível</span>
+        </div>
+        <h3 class="pcard-title">Sistema de Compras</h3>
+        <p class="pcard-desc">Do pedido à liquidação, sem papel e sem planilha. Controle cotações, gerencie fornecedores, aprove por alçada e acompanhe cada compra com rastreabilidade completa e documentação centralizada.</p>
+        <ul class="pcard-features">
+          <li>Requisição e aprovação por alçada hierárquica</li>
+          <li>Cadastro e avaliação de fornecedores</li>
+          <li>Cotações com comparativo automático</li>
+          <li>Pedidos de compra com acompanhamento de entrega</li>
+          <li>Relatórios de spending e análise de custos</li>
+        </ul>
+        <a href="#contato" class="pcard-cta" aria-label="Solicitar demonstração do Sistema de Compras">
+          Solicitar demonstração
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+      <!-- 03 — Gestão de Ativos -->
+      <div class="glass-card pcard reveal-up delay-2">
+        <div class="pcard-num grad-text">03</div>
+        <div class="pcard-header">
+          <div class="pcard-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <g stroke="url(#ig)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+              </g>
+            </svg>
+          </div>
+          <span class="pcard-badge">● Disponível</span>
+        </div>
+        <h3 class="pcard-title">Gestão de Ativos</h3>
+        <p class="pcard-desc">Sabe exatamente onde está cada equipamento, contrato ou veículo da sua empresa? Controle o ciclo de vida completo de todos os seus ativos — de TI, armazém, frota, escritório e muito mais.</p>
+        <ul class="pcard-features">
+          <li>Inventário completo com rastreabilidade por ativo</li>
+          <li>Equipamentos de TI e eletrônicos por responsável</li>
+          <li>Gestão de frota e veículos com manutenção</li>
+          <li>Contratos com alertas de vencimento</li>
+          <li>Ativos fixos de armazém e logística</li>
+        </ul>
+        <a href="#contato" class="pcard-cta" aria-label="Solicitar demonstração do Sistema de Gestão de Ativos">
+          Solicitar demonstração
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+      <!-- 04 — CRM Comercial -->
+      <div class="glass-card pcard reveal-up">
+        <div class="pcard-num grad-text">04</div>
+        <div class="pcard-header">
+          <div class="pcard-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <g stroke="url(#ig)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </g>
+            </svg>
+          </div>
+          <span class="pcard-badge">● Disponível</span>
+        </div>
+        <h3 class="pcard-title">CRM Comercial</h3>
+        <p class="pcard-desc">Seu time comercial no controle total. Gerencie prospecções, negociações e fechamentos com pipeline visual, histórico completo de interações e dashboard de metas para a diretoria acompanhar em tempo real.</p>
+        <ul class="pcard-features">
+          <li>Pipeline de vendas visual por etapa</li>
+          <li>Histórico completo de negociações e contatos</li>
+          <li>Metas por vendedor com acompanhamento diário</li>
+          <li>Dashboard executivo para diretoria e gestores</li>
+          <li>Alertas de follow-up e oportunidades em risco</li>
+        </ul>
+        <a href="#contato" class="pcard-cta" aria-label="Solicitar demonstração do CRM Comercial">
+          Solicitar demonstração
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+      <!-- 05 — Consulta Tributária -->
+      <div class="glass-card pcard reveal-up delay-1">
+        <div class="pcard-num grad-text">05</div>
+        <div class="pcard-header">
+          <div class="pcard-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <g stroke="url(#ig)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"/>
+                <path d="m21 21-4.35-4.35"/>
+                <path d="M11 8v3M11 14h.01"/>
+              </g>
+            </svg>
+          </div>
+          <span class="pcard-badge">● Disponível</span>
+        </div>
+        <h3 class="pcard-title">Consulta Tributária por NCM</h3>
+        <p class="pcard-desc">Para trading companies e operadores de comércio exterior: consulte NCMs, alíquotas de II, IPI, PIS/COFINS e ICMS em segundos. Precifique com precisão, reduza riscos fiscais e ganhe velocidade antes de cada importação.</p>
+        <ul class="pcard-features">
+          <li>Consulta de NCM em tempo real por código ou produto</li>
+          <li>Alíquotas de II, IPI, PIS, COFINS e ICMS</li>
+          <li>Histórico de consultas por usuário</li>
+          <li>Alertas de alterações tributárias relevantes</li>
+          <li>Exportação de relatórios por período</li>
+        </ul>
+        <a href="#contato" class="pcard-cta" aria-label="Solicitar demonstração do Sistema de Consulta Tributária">
+          Solicitar demonstração
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+      <!-- 06 — Faturamento Automatizado -->
+      <div class="glass-card pcard reveal-up delay-2">
+        <div class="pcard-num grad-text">06</div>
+        <div class="pcard-header">
+          <div class="pcard-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <g stroke="url(#ig)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <path d="M9 13h6M9 17h4"/>
+              </g>
+            </svg>
+          </div>
+          <span class="pcard-badge">● Disponível</span>
+        </div>
+        <h3 class="pcard-title">Faturamento Automatizado</h3>
+        <p class="pcard-desc">Para operadores logísticos, despachantes e transportadoras: o sistema gera cobranças automaticamente com base nos contratos vigentes. Importação, armazenagem e transporte faturados no prazo certo, sem planilha e sem erro humano.</p>
+        <ul class="pcard-features">
+          <li>Geração automática de faturas por contrato</li>
+          <li>Processos de importação, armazenagem e transporte</li>
+          <li>Tabelas e tarifas por cliente e serviço</li>
+          <li>Controle de inadimplência e vencimentos</li>
+          <li>Dashboard financeiro com visão consolidada</li>
+        </ul>
+        <a href="#contato" class="pcard-cta" aria-label="Solicitar demonstração do Sistema de Faturamento Automatizado">
+          Solicitar demonstração
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+      <!-- Custom SaaS — full width -->
+      <div class="pcard-custom reveal-up">
+        <div class="pcard-custom-icon" aria-hidden="true">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+        </div>
+        <div class="pcard-custom-body">
+          <p class="pcard-custom-eyebrow">Não encontrou o que precisa?</p>
+          <h3 class="pcard-custom-title">Criamos o seu sistema do zero — 100% sob medida.</h3>
+          <p class="pcard-custom-desc">Cada empresa tem um processo único. Se nenhum dos sistemas acima resolve o seu desafio específico, desenvolvemos uma solução SaaS personalizada — da arquitetura ao deploy, com suporte contínuo e evoluções iterativas conforme sua operação cresce.</p>
+        </div>
+        <div class="pcard-custom-action">
+          <a href="#contato" class="btn-white">
+            Solicitar diagnóstico gratuito
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <p class="pcard-custom-note">Sem compromisso · Resposta em 24h</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     HOW IT WORKS
+══════════════════════════════════════════ -->
+<section id="como-funciona" class="section" aria-labelledby="process-heading">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <div class="eyebrow">Metodologia</div>
+      <h2 id="process-heading" class="section-title">
+        Como funciona na <span class="grad-text">prática</span>
+      </h2>
+      <p class="section-sub">Do primeiro contato à operação rodando — sem burocracia, sem surpresas.</p>
+    </div>
+
+    <div class="process-steps">
+      <div class="process-step reveal-up">
+        <div class="step-num grad-text">01</div>
+        <div class="glass-card step-card">
+          <div class="step-icon-wrap">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3B6EFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          </div>
+          <h3 class="step-title">Diagnóstico gratuito</h3>
+          <p class="step-desc">30 minutos de conversa para entender sua operação, dores e objetivos. Sem compromisso. Sem pitch de vendas.</p>
+          <span class="step-tag">30 min · Gratuito</span>
+        </div>
+        <div class="step-connector" aria-hidden="true"></div>
+      </div>
+
+      <div class="process-step reveal-up delay-1">
+        <div class="step-num grad-text">02</div>
+        <div class="glass-card step-card">
+          <div class="step-icon-wrap">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B5EFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          </div>
+          <h3 class="step-title">Mapeamento e proposta</h3>
+          <p class="step-desc">Identificamos gargalos, estimamos o ROI e entregamos uma proposta com escopo, prazo e investimento.</p>
+          <span class="step-tag">ROI estimado</span>
+        </div>
+        <div class="step-connector" aria-hidden="true"></div>
+      </div>
+
+      <div class="process-step reveal-up delay-2">
+        <div class="step-num grad-text">03</div>
+        <div class="glass-card step-card">
+          <div class="step-icon-wrap">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8B4EEE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3 class="step-title">Desenvolvimento e implementação</h3>
+          <p class="step-desc">Entregas iterativas em sprints curtos. Você acompanha o progresso e valida cada etapa antes da próxima.</p>
+          <span class="step-tag">Sprints curtos</span>
+        </div>
+        <div class="step-connector" aria-hidden="true"></div>
+      </div>
+
+      <div class="process-step reveal-up delay-3">
+        <div class="step-num grad-text">04</div>
+        <div class="glass-card step-card">
+          <div class="step-icon-wrap">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9D4EDD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <h3 class="step-title">Operação assistida e evolução</h3>
+          <p class="step-desc">Suporte pós-entrega, monitoramento dos KPIs e ciclos de melhoria contínua. A automação cresce com sua empresa.</p>
+          <span class="step-tag">Suporte contínuo</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     DIFFERENTIALS
+══════════════════════════════════════════ -->
+<section id="diferenciais" class="section section-alt" aria-labelledby="diff-heading">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <div class="eyebrow">Por que a NEXYS</div>
+      <h2 id="diff-heading" class="section-title">
+        O que nos torna <span class="grad-text">diferentes</span>
+      </h2>
+    </div>
+
+    <div class="diff-grid">
+      <div class="glass-card diff-card reveal-up">
+        <div class="diff-icon-wrap">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <g stroke="url(#ig)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+            </g>
+          </svg>
+        </div>
+        <h3 class="diff-title">Visão de negócio + execução técnica</h3>
+        <p class="diff-desc">Raro encontrar os dois juntos. Na NEXYS, quem entende o processo é o mesmo que escreve o código. Sem gap de tradução entre consultor e desenvolvedor.</p>
+      </div>
+
+      <div class="glass-card diff-card diff-featured reveal-up delay-1">
+        <div class="diff-icon-wrap">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <g stroke="url(#ig)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="6" height="18" rx="1"/><rect x="9" y="8" width="6" height="13" rx="1"/><rect x="16" y="13" width="6" height="8" rx="1"/>
+            </g>
+          </svg>
+        </div>
+        <h3 class="diff-title">Foco em ROI e métricas reais</h3>
+        <p class="diff-desc">Toda entrega tem KPI definido antes de começar. Não entregamos "projeto" — entregamos resultado mensurável. Se não tem número, não tem entrega.</p>
+      </div>
+
+      <div class="glass-card diff-card reveal-up delay-2">
+        <div class="diff-icon-wrap">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <g stroke="url(#ig)" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="4"/><path d="M6 20v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/>
+            </g>
+          </svg>
+        </div>
+        <h3 class="diff-title">Senioridade comprovada em campo</h3>
+        <p class="diff-desc">Projetos de 4M+ de pedidos em pico sazonal, reestruturação de redes com 40+ unidades e operações de last mile em larga escala. Liderança real — não teórica.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     CASES / RESULTS
+══════════════════════════════════════════ -->
+<section id="resultados" class="section" aria-labelledby="cases-heading">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <div class="eyebrow">Experiência comprovada</div>
+      <h2 id="cases-heading" class="section-title">
+        Projetos de <span class="grad-text">grande escala</span> na bagagem
+      </h2>
+      <p class="section-sub">Cases reais da trajetória do fundador — a mesma expertise que a NEXYS entrega para você.</p>
+    </div>
+
+    <div class="cases-grid">
+      <div class="glass-card case-card reveal-up">
+        <div class="case-top">
+          <div class="case-company">Logística · Last Mile</div>
+          <div class="case-sector">Operação de grande porte</div>
+        </div>
+        <div class="case-metric" style="color:#00E5A0">
+          <span class="case-num">-25%</span>
+          <span class="case-metric-lbl">Custo operacional</span>
+        </div>
+        <p class="case-desc">Estruturação do projeto de last mile e fluxo de logística reversa em operação de grande porte. Automação de tracking e integração entre sistemas logísticos heterogêneos.</p>
+        <div class="case-tags"><span>Last Mile</span><span>WMS</span><span>Automação</span></div>
+      </div>
+
+      <div class="glass-card case-card reveal-up delay-1">
+        <div class="case-top">
+          <div class="case-company">E-commerce · Grande Escala</div>
+          <div class="case-sector">PMO em pico sazonal</div>
+        </div>
+        <div class="case-metric" style="color:#4A7BFF">
+          <span class="case-num">4M+</span>
+          <span class="case-metric-lbl">Pedidos gerenciados em pico</span>
+        </div>
+        <p class="case-desc">Liderança de PMO em operação de e-commerce durante pico sazonal de alto volume. Coordenação simultânea de logística, tecnologia e operações em escala nacional.</p>
+        <div class="case-tags"><span>PMO</span><span>S&OP</span><span>Logística</span></div>
+      </div>
+
+      <div class="glass-card case-card reveal-up delay-2">
+        <div class="case-top">
+          <div class="case-company">Distribuição · Rede Nacional</div>
+          <div class="case-sector">Reestruturação operacional</div>
+        </div>
+        <div class="case-metric" style="color:#A855F7">
+          <span class="case-num">-30%</span>
+          <span class="case-metric-lbl">Prazo de entrega</span>
+        </div>
+        <p class="case-desc">Reestruturação de malha de distribuição com 40+ unidades. Dashboards de monitoramento em tempo real e automação de KPIs de prazo e produtividade.</p>
+        <div class="case-tags"><span>40+ Unidades</span><span>Dashboards</span><span>Roteirização</span></div>
+      </div>
+
+      <div class="glass-card case-card reveal-up delay-3">
+        <div class="case-top">
+          <div class="case-company">Logística · Alto SLA</div>
+          <div class="case-sector">Operações de alta complexidade</div>
+        </div>
+        <div class="case-metric grad-text">
+          <span class="case-num">100%</span>
+          <span class="case-metric-lbl">SLA de entrega mantido</span>
+        </div>
+        <p class="case-desc">Gestão de operações logísticas de alta complexidade. Implementação de processos, dashboards de controle operacional e garantia de SLA em operações de grande volume.</p>
+        <div class="case-tags"><span>SLA</span><span>KPIs</span><span>Gestão</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     FOR WHOM
+══════════════════════════════════════════ -->
+<section id="para-quem" class="section section-alt" aria-labelledby="personas-heading">
+  <div class="container">
+    <div class="section-header reveal-up">
+      <div class="eyebrow">Para quem é</div>
+      <h2 id="personas-heading" class="section-title">
+        Você se <span class="grad-text">identifica</span> com algum desses?
+      </h2>
+    </div>
+
+    <div class="personas-grid">
+      <div class="glass-card persona-card reveal-up">
+        <div class="persona-icon" aria-hidden="true">📊</div>
+        <h3 class="persona-title">O empresário que apaga incêndio todo dia</h3>
+        <p class="persona-desc">Controla vendas no WhatsApp, financeiro no Excel e estoque na memória. Sabe que precisa organizar, mas não tem tempo nem por onde começar.</p>
+        <div class="persona-pain">
+          <span class="pain-label">Dor principal:</span>
+          Retrabalho e falta de visibilidade para crescer
+        </div>
+      </div>
+
+      <div class="glass-card persona-card persona-featured reveal-up delay-1">
+        <div class="persona-icon" aria-hidden="true">⚙️</div>
+        <h3 class="persona-title">O gestor que precisa de números em tempo real</h3>
+        <p class="persona-desc">Lidera uma operação mas depende de relatórios manuais do time para saber o que acontece. Quando chega a informação, já é tarde demais para agir.</p>
+        <div class="persona-pain">
+          <span class="pain-label">Dor principal:</span>
+          Decisões baseadas em dados atrasados ou incorretos
+        </div>
+      </div>
+
+      <div class="glass-card persona-card reveal-up delay-2">
+        <div class="persona-icon" aria-hidden="true">📦</div>
+        <h3 class="persona-title">O time afogado em processos manuais</h3>
+        <p class="persona-desc">Logística, financeiro ou backoffice que passa o dia copiando dados entre sistemas, fazendo conciliações e respondendo as mesmas perguntas de sempre.</p>
+        <div class="persona-pain">
+          <span class="pain-label">Dor principal:</span>
+          Tempo do time desperdiçado em tarefas que um robô faria
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     FOUNDER QUOTE
+══════════════════════════════════════════ -->
+<section class="section quote-section" aria-label="Mensagem do fundador">
+  <div class="container">
+    <div class="glass-card quote-card reveal-up">
+      <div class="quote-mark" aria-hidden="true">"</div>
+      <blockquote class="quote-text">
+        Eu vi de perto a diferença entre uma operação que decide por intuição e outra que decide com dados.
+        A NEXYS leva clareza, automação e inteligência para empresas que querem crescer sem caos.
+      </blockquote>
+      <div class="quote-author">
+        <div class="quote-avatar">GP</div>
+        <div>
+          <div class="quote-name">Gueilee Pereira</div>
+          <div class="quote-role">Fundador, NEXYS</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     TECH STACK
+══════════════════════════════════════════ -->
+<section class="tech-strip-section" aria-label="Tecnologias utilizadas">
+  <div class="container">
+    <p class="tech-label reveal-up">Tecnologias que dominamos</p>
+    <div class="tech-track reveal-up delay-1">
+      <div class="tech-track-inner">
+        <span class="tech-chip">Python</span>
+        <span class="tech-chip">Looker Studio</span>
+        <span class="tech-chip">n8n</span>
+        <span class="tech-chip">Zapier</span>
+        <span class="tech-chip">Power Automate</span>
+        <span class="tech-chip">OpenAI API</span>
+        <span class="tech-chip">Claude API</span>
+        <span class="tech-chip">SQL</span>
+        <span class="tech-chip">JavaScript / React</span>
+        <span class="tech-chip">REST / SOAP</span>
+        <span class="tech-chip">RPA</span>
+        <span class="tech-chip">VBA</span>
+        <span class="tech-chip">ERP / WMS / TMS</span>
+        <span class="tech-chip">Python</span>
+        <span class="tech-chip">Looker Studio</span>
+        <span class="tech-chip">n8n</span>
+        <span class="tech-chip">Zapier</span>
+        <span class="tech-chip">Power Automate</span>
+        <span class="tech-chip">OpenAI API</span>
+        <span class="tech-chip">Claude API</span>
+        <span class="tech-chip">SQL</span>
+        <span class="tech-chip">JavaScript / React</span>
+        <span class="tech-chip">REST / SOAP</span>
+        <span class="tech-chip">RPA</span>
+        <span class="tech-chip">VBA</span>
+        <span class="tech-chip">ERP / WMS / TMS</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     FAQ
+══════════════════════════════════════════ -->
+<section id="faq" class="section section-alt" aria-labelledby="faq-heading">
+  <div class="container faq-wrap">
+    <div class="section-header reveal-up">
+      <div class="eyebrow">Dúvidas frequentes</div>
+      <h2 id="faq-heading" class="section-title">
+        Perguntas que <span class="grad-text">quase todo mundo</span> faz
+      </h2>
+    </div>
+
+    <div class="faq-list reveal-up">
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          O que é a NEXYS?
+          <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-a" hidden>
+          <p>A NEXYS é uma consultoria especializada em automação de processos, desenvolvimento de software e inteligência artificial. Ajudamos empresas de diferentes portes a sair de planilhas e processos manuais para uma operação automatizada, integrada e orientada a dados.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Para que tamanho de empresa vocês trabalham?
+          <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-a" hidden>
+          <p>Atendemos empresas de diferentes portes — do negócio em crescimento à operação estabelecida com centenas de colaboradores. O critério não é o tamanho: é ter processos manuais que travam a operação e a vontade de transformá-los em rotinas automatizadas e inteligentes.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Quanto tempo dura um projeto?
+          <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-a" hidden>
+          <p>Depende do escopo. Projetos pontuais (uma automação específica, um dashboard) levam de 2 a 6 semanas. Projetos de maior porte (integração de sistemas, desenvolvimento de plataforma) de 2 a 4 meses. Trabalhamos em sprints curtos com entregas parciais para você ver resultado rápido.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Como funciona o diagnóstico gratuito?
+          <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-a" hidden>
+          <p>É uma reunião de 30 minutos por vídeo ou presencial, sem custo e sem compromisso. Mapeamos sua operação atual, identificamos os maiores gargalos e estimamos o potencial de ganho com automação. Se fizer sentido continuar, apresentamos uma proposta. Se não fizer, você sai com insights úteis de graça.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Vocês trabalham presencial ou remoto?
+          <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-a" hidden>
+          <p>Prioritariamente remoto — o que nos permite atender clientes em todo o Brasil. Para projetos que exigem mapeamento in loco ou treinamentos, atendemos a Grande São Paulo e região. Para outras localidades, avaliamos caso a caso.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Quais tecnologias vocês usam?
+          <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-a" hidden>
+          <p>Usamos o que resolve o problema com menor custo e maior confiabilidade: <strong>Python, n8n, Zapier, Power Automate, Looker Studio, Metabase, OpenAI API, Claude API, SQL, JavaScript/React</strong> e integrações <strong>REST/SOAP</strong>. Escolhemos a tecnologia a partir do problema — não o contrário.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Como funciona a precificação?
+          <svg class="faq-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="faq-a" hidden>
+          <p>Oferecemos três modelos: <strong>Projeto fechado</strong> (escopo e valor fixos), <strong>Mensalidade</strong> (para demandas contínuas de automação e suporte) e <strong>Retainer estratégico</strong> (banco de horas com prioridade de atendimento). O modelo ideal é definido no diagnóstico, junto com você.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     CTA + FORM
+══════════════════════════════════════════ -->
+<section id="contato" class="cta-section" aria-labelledby="cta-heading">
+  <div class="cta-glow" aria-hidden="true"></div>
+  <div class="container cta-inner">
+
+    <div class="cta-text reveal-up">
+      <div class="eyebrow">Vamos conversar?</div>
+      <h2 id="cta-heading" class="cta-title">
+        Chega de planilha bagunçada.<br>
+        <span class="grad-text">É hora de organizar sua empresa para crescer.</span>
+      </h2>
+      <p class="cta-sub">
+        30 minutos. Sem compromisso. Sem pitch de vendas. Só clareza sobre onde sua operação pode melhorar.
+      </p>
+      <div class="cta-checklist">
+        <div class="cta-check"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#00E5A0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Diagnóstico gratuito em 30 minutos</div>
+        <div class="cta-check"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#00E5A0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Estimativa de ROI sem compromisso</div>
+        <div class="cta-check"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#00E5A0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Resposta em até 24 horas</div>
+      </div>
+    </div>
+
+    <form class="glass-card contact-form reveal-up delay-1" id="contactForm" novalidate aria-label="Formulário de diagnóstico gratuito">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="inp-name" class="form-label">Nome completo <span class="req" aria-hidden="true">*</span></label>
+          <input type="text" id="inp-name" name="name" class="form-input" placeholder="Seu nome" required autocomplete="name" aria-required="true">
+        </div>
+        <div class="form-group">
+          <label for="inp-email" class="form-label">E-mail <span class="req" aria-hidden="true">*</span></label>
+          <input type="email" id="inp-email" name="email" class="form-input" placeholder="seu@email.com" required autocomplete="email" aria-required="true">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="inp-wa" class="form-label">WhatsApp <span class="req" aria-hidden="true">*</span></label>
+          <input type="tel" id="inp-wa" name="whatsapp" class="form-input" placeholder="+55 (11) 99999-9999" required autocomplete="tel" aria-required="true">
+        </div>
+        <div class="form-group">
+          <label for="inp-company" class="form-label">Empresa</label>
+          <input type="text" id="inp-company" name="company" class="form-input" placeholder="Nome da empresa" autocomplete="organization">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inp-challenge" class="form-label">Qual é o seu maior desafio hoje? <span class="req" aria-hidden="true">*</span></label>
+        <textarea id="inp-challenge" name="challenge" class="form-textarea" placeholder="Quais processos manuais travam mais sua operação hoje?" rows="4" required aria-required="true"></textarea>
+      </div>
+      <button type="submit" class="btn-primary btn-submit">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2L11 13"/><path d="M22 2L15 22 11 13 2 9l20-7z"/></svg>
+        Solicitar diagnóstico gratuito
+      </button>
+      <p class="form-note">Ao enviar, você concorda em ser contatado pela NEXYS. Sem spam, nunca.</p>
+      <div id="formSuccess" class="form-success" role="alert" aria-live="polite" hidden>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00E5A0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+        Mensagem enviada! Entraremos em contato em até 24h.
+      </div>
+    </form>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer class="footer" role="contentinfo">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#inicio" aria-label="NEXYS — Voltar ao topo">
+        <img src="logo.png" alt="NEXYS" width="110" height="38" loading="lazy">
+      </a>
+      <p class="footer-tagline">Transformamos processos manuais em rotinas automatizadas com sistemas, IA e integrações.</p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/company/nexys-consultoria" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="NEXYS no LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h3 class="footer-col-title">Empresa</h3>
+      <ul class="footer-links" role="list">
+        <li><a href="#sobre" class="footer-link">Sobre a NEXYS</a></li>
+        <li><a href="#diferenciais" class="footer-link">Diferenciais</a></li>
+        <li><a href="#resultados" class="footer-link">Resultados</a></li>
+        <li><a href="#faq" class="footer-link">FAQ</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3 class="footer-col-title">Serviços</h3>
+      <ul class="footer-links" role="list">
+        <li><a href="#servicos" class="footer-link">Mapeamento de Processos</a></li>
+        <li><a href="#servicos" class="footer-link">Automação Python &amp; RPA</a></li>
+        <li><a href="#servicos" class="footer-link">Desenvolvimento de Sistemas</a></li>
+        <li><a href="#servicos" class="footer-link">Dashboards &amp; Business Intelligence</a></li>
+        <li><a href="#servicos" class="footer-link">IA Aplicada</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3 class="footer-col-title">Contato</h3>
+      <ul class="footer-links" role="list">
+        <li>
+          <a href="mailto:nexys.consultoria@gmail.com" class="footer-link footer-contact">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            nexys.consultoria@gmail.com
+          </a>
+        </li>
+        <li>
+          <a href="tel:+5511910518416" class="footer-link footer-contact">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.6 19.79 19.79 0 0 1 1.58 4.1 2 2 0 0 1 3.56 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.9-.9a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            +55 (11) 91051-8416
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/gueilee-pereira" target="_blank" rel="noopener noreferrer" class="footer-link footer-contact">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            Gueilee Pereira (LinkedIn)
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© 2026 NEXYS — Consultoria de Processos e Desenvolvimento de Software</p>
+      <p class="footer-cnpj">CNPJ: 56.036.553/0001-59</p>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Floating Button -->
+<a
+  href="https://wa.me/5511910518416?text=Olá!%20Quero%20saber%20mais%20sobre%20o%20diagnóstico%20gratuito%20da%20NEXYS."
+  class="wa-float"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Falar com a NEXYS pelo WhatsApp"
+>
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+  <span class="wa-tooltip">Falar pelo WhatsApp</span>
+</a>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
