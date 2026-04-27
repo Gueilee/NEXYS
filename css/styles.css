@@ -1306,7 +1306,7 @@ body > *:not(.bg-ambient) { position: relative; z-index: 1; }
 }
 
 .form-success {
-  display: flex;
+  display: none;
   align-items: center;
   gap: 10px;
   background: rgba(0,229,160,.08);
